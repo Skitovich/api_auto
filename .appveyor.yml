@@ -5,11 +5,11 @@ stack: jdk 11
 branches:
   only:
     - main
+    - JSON-Schema
 
 build: off
 
 install:
-
   - chmod +x gradlew
   - java -jar ./artifacts/app-mbank.jar &
 
